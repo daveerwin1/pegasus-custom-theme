@@ -12,7 +12,8 @@ Changed:
 * changed game highlight box to have rounded corners and transparent color
 * added platform logo svgs for some systems that were missing, example atomiswave
 
-Notes: I didn't like some of the labels for platforms in top bar (GB for GameBoy for instance), I added a property so you can customize it. for example add this to your metadata file under collection
+Notes: 
+I didn't like some of the labels for platforms in top bar (GB for GameBoy for instance), I added a property so you can customize it. for example add this to your metadata file under collection
 `x-shortname_display: Game Boy`
 Now it will show Game Boy instead of the shortname GB, you could just change the shortname, but you would also have to change the name of the logo image to the new shortname or the logo won't show, I didn't like that so I added the optional `x-shortname_display`
 You can just change the collection name to oreder them better alphabetically also.
