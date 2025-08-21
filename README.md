@@ -15,8 +15,7 @@ Changed:
 Notes:  
 I didn't like some of the labels for platforms in top bar (GB for GameBoy for instance), I added a property so you can customize it. for example add this to your metadata file under collection
 `x-shortname_display: Game Boy`
-Now it will show Game Boy instead of the shortname GB, you could just change the shortname, but you would also have to change the name of the logo image to the new shortname or the logo won't show, I didn't like that so I added the optional `x-shortname_display`
-You can just change the collection name to oreder them better alphabetically also.
+Now it will show Game Boy instead of the shortname GB, you could just change the shortname, but you would also have to change the name of the logo image to the new shortname or the logo won't show, I didn't like that so I added the optional `x-shortname_display` 
 I wish I could say you can reference commits to see the changes for each of these, but I didn't add to github until all the changes were made. You'll have to diff the files with the original to see what changes there are.
 None of these changes have been tested in Windows, only Linux, they should work, but I haven't tested them
 
