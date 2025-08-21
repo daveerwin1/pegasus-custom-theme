@@ -8,7 +8,7 @@ Changed:
 * RB and LB repeat for changing platforms, also RT and LT repeat for scrolling grid up/down
 * changed grid to show 3 columns, to change back just uncomment lines 92 and 93 in GameGrid.qml
 * color changes, red to green
-* changed top platform bar to show 49 systems, I know 49 is very specific, but I wasn't trying to make it scale to any number of platforms, I just wanted 49 because that's how many I had at the time, should be easy enough to change for any number to look perfect, but you'll have to diff the files, I don't have those changes in a commit
+* changed top platform bar to show 49 systems, I know 49 is very specific, but I wasn't trying to make it scale to any number of platforms, I just wanted 49 because that's how many I had at the time, should be easy enough to change for any number to look perfect, but you'll have to diff the files, I don't have those changes in a commit, I just tweaked the size of PlatformBar
 * changed game highlight box to have rounded corners and transparent color
 * added platform logo svgs for some systems that were missing, example atomiswave
 
