@@ -4,7 +4,7 @@
 
 The default theme of the [Pegasus](http://pegasus-frontend.org) frontend, modified.
 Changed: 
-* after closing a game grid scrolls to show game instead of returning to top
+* after closing a game, grid scrolls to show game instead of returning to top
 * RB and LB repeat for changing platforms, also RT and LT repeat for scrolling grid up/down
 * changed grid to show 3 columns, to change back just uncomment lines 92 and 93 in GameGrid.qml
 * color changes, red to green
